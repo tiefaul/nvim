@@ -2,8 +2,6 @@
 
 **This repo is supposed to be used as config by NvChad users!**
 
-Here’s a clearer, more polished version suitable for a **How-To** section in your Neovim config docs:
-
 ### Installation
 
 To use this Neovim configuration, ensure you are running **Neovim v0.11.4 or later**.
