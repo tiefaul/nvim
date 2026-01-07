@@ -1,0 +1,7 @@
+# Neovim
+lazy-lock.json
+plugin/
+shada/
+swap/
+undo/
+backup/
