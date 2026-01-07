@@ -1,3 +1,5 @@
+# About
+
 **This repo is supposed to be used as config by NvChad users!**
 
 To import these settings into your config. Make sure you have installed NeoVim version 0.11.4 or greater.
