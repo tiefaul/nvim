@@ -39,7 +39,7 @@ return {
     lazy = false,
     opts = require "configs.autosave",
     keys = {
-      { "<leader>zv", "<cmd>ASToggle<CR>", desc = "Toggle autosave" },
+      { "<leader>zv", "<cmd>ASToggle<cr>", desc = "Toggle autosave" },
     },
   },
   -- Live-Preview
@@ -47,6 +47,10 @@ return {
     "brianhuster/live-preview.nvim",
     dependencies = {
       "nvim-telescope/telescope.nvim",
+    },
+    keys = {
+      { "<leader>lp", "<cmd>LivePreview start<cr>", desc = "Start LivePreview" },
+      { "<leader>lc", "<cmd>LivePreview close<cr>", desc = "Close LivePreview" },
     },
   },
   -- Treesitter
