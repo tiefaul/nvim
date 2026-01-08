@@ -4,6 +4,7 @@ local options = {
     lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
+    yaml = { "prettier" },
   },
 
   format_on_save = {
